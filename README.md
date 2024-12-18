@@ -22,6 +22,7 @@ http://nns.ic0.io
 http://oisy.ic0.io
 http://paca.ic0.io
 http://pacapump.ic0.io
+http://ponzi.ic0.io
 http://sneed.ic0.io
 http://swap.ic0.io
 http://taggr.ic0.io
