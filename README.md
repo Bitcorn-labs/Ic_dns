@@ -35,7 +35,7 @@ http://vectors.ic0.io
 http://wallet.ic0.io
 http://wtn.ic0.io
 http://wumbo.ic0.io
-http://spider.ic0.io
+http://spider.ic0.io 
 
 
 
