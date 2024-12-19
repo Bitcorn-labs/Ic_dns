@@ -1,7 +1,7 @@
 # Ic_dns
 A native domain service for internet computer canisters using ic0.io with assigned prefix’s
 
-users with current canisters whom wish to have prefix redirects to ic0.io can make a pull request to apply. Not all requests will be granted. 
+users with current canisters whom wish to have prefix redirects to ic0.io can make a pull request to apply. please include the exact url you are requesting the address point too and the prefix you are requesting. known projects and sns daos have priority. Not all requests will be granted. 
 
 Current operating canister redirects
 http://bob.ic0.io
