@@ -26,6 +26,7 @@ http://paca.ic0.io
 http://pacapump.ic0.io
 http://ponzi.ic0.io
 http://sneed.ic0.io
+http://spider.ic0.io
 http://swap.ic0.io
 http://taggr.ic0.io
 http://tendy.ic0.io
