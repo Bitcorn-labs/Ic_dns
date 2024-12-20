@@ -1,0 +1,37 @@
+import Debug "mo:base/Debug";
+import Http "mo:base/Http";
+
+// Define the endpoint and API key
+let baseUrl = "https://porkbun.com/api/json/v3";
+let apiKey = "<Your_API_Key>";
+let apiSecret = "<Your_API_Secret>";
+
+// Function to set up domain forwarding
+actor DomainForwarding {
+  // Set domain forwarding
+  public shared func setDomainForwarding(domain: Text, destination: Text): async Text {
+    let url = baseUrl # "/forwarding/create";
+    let payload = {
+      apikey = apiKey;
+      secretapikey = apiSecret;
+      domainname = domain;
+      url = destination;
+      mask = false; // Adjust masking as needed
+    };
+
+    // Make the HTTP POST request
+    let response = await Http.post(
+      url,
+      #textPayload(Text.toUtf8(Json.Stringify(payload))),
+      null
+    );
+
+    // Parse and return response
+    switch response.status {
+      case (#ok): {
+        return "Domain forwarding set successfully!";
+      };
+      case (#notFound): return error!.
+
+      default Debug.show.
+---
