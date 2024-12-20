@@ -16,7 +16,7 @@ actor DomainForwarding {
       secretapikey = apiSecret;
       domainname = domain;
       url = destination;
-      mask = false; // Adjust masking as needed
+      mask = false;
     };
 
     // Make the HTTP POST request
@@ -34,4 +34,3 @@ actor DomainForwarding {
       case (#notFound): return error!.
 
       default Debug.show.
----
